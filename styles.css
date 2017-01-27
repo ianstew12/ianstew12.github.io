@@ -66,3 +66,17 @@ table {
 	background-color: 666;
 margin:auto;
 }
+
+
+#darebutton { 
+    display: block;
+    position: absolute;
+    right: 3%;
+    bottom:25%;
+    width: 8rem;
+    height: 8rem;
+    font-weight: 300;
+    text-align: center;
+    z-index: 10;
+    cursor: pointer;
+ }
