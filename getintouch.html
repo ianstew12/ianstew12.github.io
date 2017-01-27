@@ -1,126 +1,112 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	<meta name="description" content="Tryint to figure out Bootstrap">
-	<meta name="keywords" content="bootstrap, responsive design">
-	<meta name="author" content="Ian Stewart">
-	<title>Contact Info</title>
- 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="description" content="Tryint to figure out Bootstrap">
+    <meta name="keywords" content="bootstrap, responsive design">
+    <meta name="author" content="Ian Stewart">
+    <title>Contact Info</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
 
-<!--Navbar at top, not in container (so it goes full width)-->
-<nav class="navbar navbar-inverse">
-  <div class="container">
-    <div class="navbar-header"> 
-      <a class="navbar-brand" href="#">Ian Stewart</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href=./home.html>Home</a></li>
-      <li><a href=./theguy.html>The Guy</a></li>
-      <li><a href=./theprogrammer.html>The Programmer</a></li>
-      <li><a href=./getintouch.html>Contact</a></li>
-    </ul>
-  </div>
-</nav>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href=./home.html>Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href=./theguy.html>The Guy</a></li>
+                    <li><a href=./theprogrammer.html>The Programmer</a></li>
+                    <li class="active"><a href=./getintouch.html>Contact</a></li>
+                </ul>
+            </div>
+    </nav>
 
 
-<div class="page-header">
-<h1>get in touch</h1>
-</div>
-
-<div class="container">
+    <div class="container">
 
 
-<div class="row">
-<div class="col-sm-4">
-<!--For my email button I used the encrypter at http://hivelogic.com/enkoder/index.php to convert from HTML
+
+
+        <div class="row">
+            <div class="col-sm-4">
+                <!--For my email button I used the encrypter at http://hivelogic.com/enkoder/index.php to convert from HTML
 to protect from spam. Andrew explained that this is not necessary so I deleted it. Possibly useful for future client sites-->
-<div class="three columns center no-float repeatable">
-	<div class="small-image" data-component="image" data-use-url="true" style="min-height:100px">
-		<div class="content content2" style="visibility: visible;">
-			<a class="image-link" href="mailto:%20ian.stew12@gmail.com" target="_blank">
-				<img src="http://icons.iconarchive.com/icons/creativenerds/wooden-social/96/gmail-icon.png" 
-					alt="ian.stew12@gmail.com" class="lazy-img" title="ian.stew12@gmail.com" style="vertical-align: middle;position: relative;">		
-			</a>
-		<span class="image-link"></span>
-		</div>
-	</div>
-</div>
-</div>
-<!--need to add row to make these buttons beside each other-->
-<div class="col-sm-4">
-<div class="three columns center no-float repeatable">
-	<div class="small-image" data-component="image" data-use-url="true" style="min-height:100px">
-		<div class="content content2" style="visibility: visible;">
-			<a class="image-link" href="https://twitter.com/istewart1919" target="_blank">
-				<img src="http://icons.iconarchive.com/icons/graphics-vibe/simple-rounded-social/96/twitter-icon.png" 
-					alt="My Twitter account" class="lazy-img" title="check out my twitter" style="vertical-align: middle;position: relative;">		
-			</a>
-		<span class="image-link"></span>
-		</div>
-	</div>
-</div>
-</div>
+                <div class="three columns center no-float repeatable">
+                    <div class="small-image" data-component="image" data-use-url="true" style="min-height:100px">
+                        <div class="content content2" style="visibility: visible;">
+                            <a class="image-link" href="mailto:%20ian.stew12@gmail.com" target="_blank">
+                                <img src="http://icons.iconarchive.com/icons/creativenerds/wooden-social/96/gmail-icon.png" alt="ian.stew12@gmail.com" class="lazy-img" title="ian.stew12@gmail.com" style="vertical-align: middle;position: relative;">
+                            </a>
+                            <span class="image-link"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--need to add row to make these buttons beside each other-->
+            <div class="col-sm-4">
+                <div class="three columns center no-float repeatable">
+                    <div class="small-image" data-component="image" data-use-url="true" style="min-height:100px">
+                        <div class="content content2" style="visibility: visible;">
+                            <a class="image-link" href="https://twitter.com/istewart1919" target="_blank">
+                                <img src="http://icons.iconarchive.com/icons/graphics-vibe/simple-rounded-social/96/twitter-icon.png" alt="My Twitter account" class="lazy-img" title="check out my twitter" style="vertical-align: middle;position: relative;">
+                            </a>
+                            <span class="image-link"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<div class="col-sm-4">
-<div class="three columns center no-float repeatable">
-	<div class="small-image" data-component="image" data-use-url="true" style="min-height:100px">
-		<div class="content content2" style="visibility: visible;">
-			<a class="image-link" href="https://www.linkedin.com/in/williamhgates" target="_blank">
-				<img src="http://icons.iconarchive.com/icons/iconshock/high-detail-social/72/linkedin-icon.png" 
-					alt="linkedin link" class="lazy-img" title="LinkedIn" style="vertical-align: middle;position: relative;">		
-			</a>
-		<span class="image-link"></span>
-		</div>
-	</div>
-</div>
-</div>
+            <div class="col-sm-4">
+                <div class="three columns center no-float repeatable">
+                    <div class="small-image" data-component="image" data-use-url="true" style="min-height:100px">
+                        <div class="content content2" style="visibility: visible;">
+                            <a class="image-link" href="https://www.linkedin.com/in/williamhgates" target="_blank">
+                                <img src="http://icons.iconarchive.com/icons/iconshock/high-detail-social/72/linkedin-icon.png" alt="linkedin link" class="lazy-img" title="LinkedIn" style="vertical-align: middle;position: relative;">
+                            </a>
+                            <span class="image-link"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-</div> <!--ending link button section (row)-->
+        </div>
+        <!--ending link button section (row)-->
 
 
-<div id="contactform">
-<form class="cf">
-  <div class="half left cf">
-    <input type="text" id="input-name" placeholder="Name">
-    <input type="email" id="input-email" placeholder="Email address">
-    <input type="text" id="input-subject" placeholder="Subject">
-  </div>
-  <div class="half right cf">
-    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
-  </div>  
-  <input type="submit" value="Submit" id="input-submit">
-</form>
-</div><!--ending contact form-->
-<!--I'm aware this submit does not currently send the message to me-->
-
+        <div id="contactform">
+            <form class="cf">
+                <div class="half left cf">
+                    <input type="text" id="input-name" placeholder="Name">
+                    <input type="email" id="input-email" placeholder="Email address">
+                    <input type="text" id="input-subject" placeholder="Subject">
+                </div>
+                <div class="half right cf">
+                    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+                </div>
+                <input type="submit" value="Submit" id="input-submit">
+            </form>
+        </div>
+        <!--ending contact form-->
+        <!--I'm aware this submit does not currently send the message to me-->
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div> <!-- ends container-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+    </div>
+    <!-- ends container-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
 </body>
+
 </html>
-
-
-
