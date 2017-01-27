@@ -9,13 +9,13 @@
     <meta name="keywords" content="Home">
     <meta name="author" content="Ian Stewart">
     <title>Ian Stewart</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
+<body>
 
-
-
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -37,17 +37,26 @@
 
 <div class="container">
 
-    <body>
-        <div class="page-header">
-            <h1>Ian Stewart</h1>
-        </div>
+<header class="head">
+  <div class="row well">
+  <div class="col-md-12 col-md-offset-0 col-sm-10 col-sm-offset-2 col-xs-10">
+    <h1 style="color:#686859; background-color: #1186CE">Ian Stewart</h1>
+  </div>
+  </div>
+</header>
+
+
+
 
         <!-- Note: I spent considerable time trying to figure out how to create a button with two states that would react like the one of 
 FlipEleven's home page. I finally gave up and am deleting it, even though I got it half working. I'm also deleting the solar system
 animation I got online (with permission from source). I mention this to explain why my site is rather bare - I spent a lot of time trying
 to learn advanced things instead of prettying up my site-->
-
         <div class="row">
+        <div class="col-md-6"> 
+            <p>Paragraph about this site, or just a little about myself (20 word description)</p>
+            </div>
+
             <div class="col-md-6">
                 <img src="mumandi.jpg" alt="My mum and I hiking in Peru" title="Mum and I hiking in Peru" usemap="#ianmap" style="width:300px;height:198px; align-self: center;" class="img-responsive">
                 <div class="caption">
@@ -59,8 +68,11 @@ to learn advanced things instead of prettying up my site-->
             </div>
         </div>
 </div>
-<!--ending container-->
+
+
+<!-- twitter follow button here-->
+<a href="https://twitter.com/istewart1919" class="twitter-follow-button" data-size="large" data-show-count="false" target="_blank ">Follow Me</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
-
 </html>
